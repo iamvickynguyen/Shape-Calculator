@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
+    tools:context="com.example.admin.day9_nhatnghe.MainActivity">
+
+    <Button
+        android:id="@+id/btnhcn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RECTANGLE"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btnhv"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SQUARE"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btnhtg"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRIANGLE"
+        android:textSize="25dp"/>
+
+</LinearLayout>
